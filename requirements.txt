@@ -1,0 +1,37 @@
+# Core dependencies
+flask==2.3.3
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Database connectors
+SQLAlchemy==2.0.23
+pymysql==1.1.0
+psycopg2-binary==2.9.9
+sqlite3-api==0.1.0
+
+# NLP and chatbot libraries
+nltk==3.8.1
+spacy==3.7.2
+transformers==4.35.2
+sentence-transformers==2.2.2
+
+# Optional: For pre-trained chatbot models
+rasa==3.6.15
+chatterbot==1.0.8
+chatterbot-corpus==1.2.0
+
+# Optional: For API-based solutions
+openai==1.3.5
+google-cloud-dialogflow==2.23.1
+
+# Security
+bcrypt==4.0.1
+PyJWT==2.8.0
+
+# Testing
+pytest==7.4.3
+
+# Utilities
+pandas==2.1.3
+numpy==1.26.2
+tqdm==4.66.1
